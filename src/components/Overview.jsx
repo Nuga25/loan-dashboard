@@ -6,35 +6,35 @@ import ActiveUsersChart from "./ActiveUsersChart";
 const Overview = () => {
   const data = [
     {
-      img_src: "./src/assets/disbursed.svg",
+      img_src: "disbursed.svg",
       text: "Disbursed Loans",
       amount: "N10,001,168",
       unit_number: "1,000",
       bg_color: "bg-light-blue",
     },
     {
-      img_src: "./src/assets/closed.svg",
+      img_src: "closed.svg",
       text: "Closed Loans",
       amount: "N5,028,480",
       unit_number: "520",
       bg_color: "bg-light-green",
     },
     {
-      img_src: "./src/assets/overdue.svg",
+      img_src: "overdue.svg",
       text: "Overdue Loans",
       amount: "N1,520,790",
       unit_number: "152",
       bg_color: "bg-light-red",
     },
     {
-      img_src: "./src/assets/running.svg",
+      img_src: "running.svg",
       text: "Running Loans (Paid)",
       amount: "N2,668,726",
       unit_number: "266",
       bg_color: "bg-light-yellow",
     },
     {
-      img_src: "./src/assets/running.svg",
+      img_src: "running.svg",
       text: "Running Loans Unpaid)",
       amount: "N918,204",
       unit_number: "198",
@@ -47,7 +47,7 @@ const Overview = () => {
       <p className="text-[20px] font-semibold">Overview</p>
       <div className=" float-right flex bg-gray-bg rounded gap-1 items-center px-2 cursor-pointer">
         <p>Overall</p>
-        <img src="./src/assets/arrow-down.svg" alt="aroow icon" />
+        <img src="arrow-down.svg" alt="aroow icon" />
       </div>
 
       <div className="mt-10 flex justify-between w-[100%]">
@@ -64,11 +64,7 @@ const Overview = () => {
       </div>
 
       <div className="flex mt-10 justify-between h-[360px]">
-        <img
-          className="w-[600px] h-[359px]"
-          src="./src/assets/Chart.svg"
-          alt=""
-        />
+        <img className="w-[600px] h-[359px]" src="Chart.svg" alt="" />
         <div>
           <UsersAndRateListItem />
         </div>

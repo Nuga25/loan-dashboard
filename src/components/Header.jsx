@@ -7,7 +7,7 @@ const Header = () => {
       <div className="relative">
         <img
           className="absolute top-2 left-1"
-          src="./src/assets/search.svg"
+          src="search.svg"
           alt="search icon"
         />
         <input
@@ -17,7 +17,7 @@ const Header = () => {
         />
       </div>
       <div className="flex gap-2">
-        <img src="./src/assets/Notification.svg" alt="notif icon" />
+        <img src="Notification.svg" alt="notif icon" />
         <div className="flex gap-1 items-center text-right">
           <div>
             <p className="font-semibold text-[14px]">Bright Feranmi</p>

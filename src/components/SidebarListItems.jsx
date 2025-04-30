@@ -4,49 +4,49 @@ import SidebarList from "./SidebarList";
 const SidebarListItems = () => {
   const manageListData = [
     {
-      image_src: "./src/assets/overview.svg",
+      image_src: "overview.svg",
       nav_item: "Overview",
     },
     {
-      image_src: "./src/assets/records.svg",
+      image_src: "records.svg",
       nav_item: "Records",
     },
     {
-      image_src: "./src/assets/transactions.svg",
+      image_src: "transactions.svg",
       nav_item: "Transactions",
     },
     {
-      image_src: "./src/assets/users.svg",
+      image_src: "users.svg",
       nav_item: "Users",
     },
     {
-      image_src: "./src/assets/staff.svg",
+      image_src: "staff.svg",
       nav_item: "Staff",
     },
     {
-      image_src: "./src/assets/analytics.svg",
+      image_src: "analytics.svg",
       nav_item: "Analytics",
     },
   ];
 
   const preferenceListData = [
     {
-      image_src: "./src/assets/Settings.svg",
+      image_src: "Settings.svg",
       nav_item: "Settings",
     },
     {
-      image_src: "./src/assets/security.svg",
+      image_src: "security.svg",
       nav_item: "Security",
     },
   ];
 
   const lastListData = [
     {
-      image_src: "./src/assets/switch-board.svg",
+      image_src: "switch-board.svg",
       nav_item: "Switch Board",
     },
     {
-      image_src: "./src/assets/log-out.svg",
+      image_src: "log-out.svg",
       nav_item: "Logout",
     },
   ];

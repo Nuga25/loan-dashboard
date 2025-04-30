@@ -9,11 +9,7 @@ const LoanCards = ({ img_src, text, amount, unit_number, bg_color }) => {
           src={img_src}
           alt="loan icon"
         />
-        <img
-          className="w-5 cursor-pointer"
-          src="./src/assets/more.svg"
-          alt="options icon"
-        />
+        <img className="w-5 cursor-pointer" src="more.svg" alt="options icon" />
       </div>
       <p className="text-ink-dark mt-3 text-[15px]">{text}</p>
       <p className="text-ink-text font-bold text-[24px] my-2">{amount}</p>

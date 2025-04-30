@@ -36,7 +36,7 @@ const ActiveUsersChart = () => {
     <div className="rounded-2xl p-4 w-full max-w-sm">
       <div className="flex justify-between items-start mb-7">
         <p className="text-[14px] text-ink-dark mb-4">Active users Ratio</p>
-        <img src="./src/assets/more.svg" alt="options icon" />
+        <img src="more.svg" alt="options icon" />
       </div>
       <div className="relative h-40 w-40 mx-auto">
         <Doughnut data={data} options={options} />

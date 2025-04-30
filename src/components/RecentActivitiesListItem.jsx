@@ -4,7 +4,7 @@ import RecentActivitiesList from "./RecentActivitiesList";
 const RecentActivitiesListItem = () => {
   const data = [
     {
-      img_src: "./src/assets/red-notif.svg",
+      img_src: "red-notif.svg",
       first_name: "Sunday",
       last_name: "Godwin",
       amount: "N200,000",
@@ -13,7 +13,7 @@ const RecentActivitiesListItem = () => {
       status: "Disbursed",
     },
     {
-      img_src: "./src/assets/green-notif.svg",
+      img_src: "green-notif.svg",
       first_name: "Oluwadarasimi",
       last_name: "Mobolaji",
       amount: "N10,000",
@@ -22,7 +22,7 @@ const RecentActivitiesListItem = () => {
       status: "Repayment",
     },
     {
-      img_src: "./src/assets/green-notif.svg",
+      img_src: "green-notif.svg",
       first_name: "Chukuemeka",
       last_name: "Chikodi",
       amount: "N56,000",
@@ -31,7 +31,7 @@ const RecentActivitiesListItem = () => {
       status: "Repayment",
     },
     {
-      img_src: "./src/assets/red-notif.svg",
+      img_src: "red-notif.svg",
       first_name: "Sunday",
       last_name: "Godwin",
       amount: "N200,000",
@@ -40,7 +40,7 @@ const RecentActivitiesListItem = () => {
       status: "Disbursed",
     },
     {
-      img_src: "./src/assets/green-notif.svg",
+      img_src: "green-notif.svg",
       first_name: "Oluwadarasimi",
       last_name: "Mobolaji",
       amount: "N10,000",
@@ -49,7 +49,7 @@ const RecentActivitiesListItem = () => {
       status: "Repayment",
     },
     {
-      img_src: "./src/assets/green-notif.svg",
+      img_src: "green-notif.svg",
       first_name: "Chukuemeka",
       last_name: "Chikodi",
       amount: "N56,000",
