@@ -23,7 +23,7 @@ const Header = () => {
             <p className="font-semibold text-[14px]">Bright Feranmi</p>
             <p className="text-[12px]">Admin</p>
           </div>
-          <img src="./src/assets/user-profile.svg" alt="user profile" />
+          <img src="user-profile.svg" alt="user profile" />
         </div>
       </div>
     </div>
