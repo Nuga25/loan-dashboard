@@ -15,6 +15,7 @@ export default {
         "light-red": "#FFE0E0",
         "light-yellow": "#FFFCE0",
         "card-gray-bg": "#F6F6F6",
+        "gray-border": "#CFCFCF",
       },
     },
   },

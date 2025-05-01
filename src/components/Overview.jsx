@@ -2,6 +2,7 @@ import React from "react";
 import LoanCards from "./LoanCards";
 import UsersAndRateListItem from "./UsersAndRateListItem";
 import ActiveUsersChart from "./ActiveUsersChart";
+import DisbursedLoansChart from "./DisbursedLoansChart";
 
 const Overview = () => {
   const data = [
@@ -64,7 +65,7 @@ const Overview = () => {
       </div>
 
       <div className="flex mt-10 justify-between h-[360px]">
-        <img className="w-[600px] h-[359px]" src="Chart.svg" alt="" />
+        <DisbursedLoansChart />
         <div>
           <UsersAndRateListItem />
         </div>

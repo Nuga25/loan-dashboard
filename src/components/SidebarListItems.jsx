@@ -1,7 +1,7 @@
 import React from "react";
 import SidebarList from "./SidebarList";
 
-const SidebarListItems = () => {
+const SidebarListItems = ({ setActiveComponent, activeComponent }) => {
   const manageListData = [
     {
       image_src: "overview.svg",
@@ -52,25 +52,29 @@ const SidebarListItems = () => {
   ];
 
   return (
-    <div className="grid grid-rows-[2.3fr_1.2fr_.5fr] gap-6 text-white">
-      <div className="mb-4">
+    <div className="grid grid-rows-[2fr_1.2fr_.5fr] h-full text-white">
+      <div>
         <p className="mb-3">MANAGE</p>
         {manageListData.map((item, index) => (
           <SidebarList
             key={index}
             image_src={item.image_src}
             nav_item={item.nav_item}
+            setActiveComponent={setActiveComponent}
+            activeComponent={activeComponent}
           />
         ))}
       </div>
 
-      <div className="mb-6">
+      <div>
         <p className="mb-3">PREFERENCE</p>
         {preferenceListData.map((item, index) => (
           <SidebarList
             key={index}
             image_src={item.image_src}
             nav_item={item.nav_item}
+            setActiveComponent={setActiveComponent}
+            activeComponent={activeComponent}
           />
         ))}
       </div>
@@ -81,6 +85,8 @@ const SidebarListItems = () => {
             key={index}
             image_src={item.image_src}
             nav_item={item.nav_item}
+            setActiveComponent={setActiveComponent}
+            activeComponent={activeComponent}
           />
         ))}
       </div>
