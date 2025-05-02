@@ -17,23 +17,93 @@ const App = () => {
           </div>
         );
       case "Records":
-        return <div>Records Component</div>;
+        return (
+          <div>
+            Records Component <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Transactions":
-        return <div>Transactions Component</div>;
+        return (
+          <div>
+            Transactions Component <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Users":
-        return <div>Users Component</div>;
+        return (
+          <div>
+            Users Component
+            <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Staff":
-        return <div>Staff Component</div>;
+        return (
+          <div>
+            Staff Component
+            <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Analytics":
-        return <div>Analytics Component</div>;
+        return (
+          <div>
+            Analytics Component
+            <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Settings":
-        return <div>Settings Component</div>;
+        return (
+          <div>
+            Settings Component
+            <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Security":
-        return <div>Security Component</div>;
+        return (
+          <div>
+            Security Component
+            <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Switch board":
-        return <div>Switch Board Component</div>;
+        return (
+          <div>
+            Switch Board Component
+            <br />
+            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolor repudiandae doloremque dolorem ab iste, fugit modi vel vitae
+            quas repellendus voluptas repellat obcaecati natus quam voluptatem
+            fugiat! Totam, eaque dolor?
+          </div>
+        );
       case "Logout":
-        return <div>Logging out...</div>; // optional: trigger a logout here
+        return <div>Logging out...</div>;
       default:
         return <div>Not Found</div>;
     }

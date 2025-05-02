@@ -107,19 +107,24 @@ const DisbursedLoansChart = () => {
       </div>
 
       {/* Slider (scroll) */}
-      <div className="mt-4">
-        <input
-          type="range"
-          min="0"
-          max="100"
-          className="w-full appearance-none bg-gray-200 h-1 rounded-full
+      <div className="flex gap-4 items-center mt-4 bg-gray-bg px-3 py-1 rounded-lg">
+        <p className="text-ink-dark text-[12px]">
+          Apr-Dec <span className="mx-4">|</span>
+        </p>
+        <div className=" flex-grow">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            className="w-full appearance-none bg-gray-200 h-1 rounded-full
                      [&::-webkit-slider-thumb]:appearance-none
                      [&::-webkit-slider-thumb]:w-3
                      [&::-webkit-slider-thumb]:h-3
                      [&::-webkit-slider-thumb]:bg-blue-500
                      [&::-webkit-slider-thumb]:rounded-full
                      [&::-webkit-slider-thumb]:cursor-pointer"
-        />
+          />
+        </div>
       </div>
     </div>
   );
